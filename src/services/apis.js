@@ -1,6 +1,9 @@
 const BASE_URL = import.meta.env.VITE_APP_BASE_URL;
 
 
+console.log("my base url is ",BASE_URL)
+
+
 // AUTH ENDPOINTS
 export const endpoints = {
   SENDOTP_API: BASE_URL + "/auth/sendotp",
@@ -71,3 +74,7 @@ export const settingsEndpoints = {
   CHANGE_PASSWORD_API: BASE_URL + "/auth/changepassword",
   DELETE_PROFILE_API: BASE_URL + "/profile/deleteProfile",
 }
+
+export const aboutStatsEndpoints = {
+  STATS_API: BASE_URL + "/about/stats"
+};
