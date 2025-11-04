@@ -51,6 +51,7 @@
     "react-super-responsive-table": "^6.0.2",
     "react-textarea-autosize": "^8.5.9",
     "react-type-animation": "^3.2.0",
+    "sib-api-v3-sdk": "^8.5.0",
     "swiper": "^11.2.10",
     "uuid": "^11.1.0",
     "video-react": "^0.16.0"
