@@ -5,7 +5,7 @@ const mailSender = async (email, title, body) => {
     // 🔹 Create transporter for Brevo
     let transporter = nodemailer.createTransport({
       host: process.env.MAIL_HOST, // smtp-relay.brevo.com
-      port: 587, // ✅ Always 587 for Brevo
+      port: 2525, // ✅ Always 587 for Brevo
       secure: false, // ✅ STARTTLS
       auth: {
         user: process.env.MAIL_USER, // your Brevo account email
