@@ -10,7 +10,7 @@ const mailSender = async (email, title, body) => {
 
     const sender = { 
       name: "Upwise | Growing up with wisdom", 
-      email: MAIL_USER // must be verified sender in Brevo
+      email: "yogeshnimcet2023@gmail.com" // must be verified sender in Brevo
     };
 
     const receivers = [{ email }];
