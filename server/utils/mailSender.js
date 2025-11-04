@@ -6,7 +6,7 @@ const mailSender = async (email, title, body) => {
   try {
     // Initialize Brevo client with API key
     const client = Sib.ApiClient.instance;
-    client.authentications["api-key"].apiKey = process.env.BREVO_API_KEY;
+    client.authentications["api-key"].apiKey = process.env.MAIL_PASS;
 
     const tranEmailApi = new Sib.TransactionalEmailsApi();
 
